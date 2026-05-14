@@ -3,9 +3,9 @@ import numpy as np
 import plotly.graph_objects as go
 from scipy.optimize import fsolve
 
-st.set_page_config(page_title="Calculadora Hidráulica Pro", layout="wide")
+st.set_page_config(page_title="Pump OPoint Demo", layout="wide")
 
-st.title("📊 Ponto de Operação de Bomba - Darcy-Weisbach")
+st.title("📊 Pump OPoint - Darcy-Weisbach")
 
 # --- SIDEBAR: DADOS DO SISTEMA ---
 st.sidebar.header("1. Geometria e Tubulação")
