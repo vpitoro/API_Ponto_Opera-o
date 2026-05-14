@@ -3,9 +3,9 @@ import numpy as np
 import plotly.graph_objects as go
 from scipy.optimize import fsolve
 
-st.set_page_config(page_title="Hidráulica Pro - Darcy-Weisbach", layout="wide")
+st.set_page_config(page_title="Ponto de Operação - Darcy-Weisbach", layout="wide")
 
-st.title("💧 Ponto de Operação: Equação Universal de Darcy-Weisbach")
+st.title("💧 Ponto de Operação da Bomba - Sistema de Irrigação")
 
 # --- SIDEBAR: DADOS TÉCNICOS ---
 st.sidebar.header("📐 Geometria do Sistema")
