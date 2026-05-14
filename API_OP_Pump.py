@@ -111,7 +111,17 @@ fig.update_layout(
     xaxis_title="Vazão (m³/h)",
     yaxis_title="Altura Manométrica (mca)",
     hovermode="x unified",
-    legend=dict(yanchor="top", y=0.99, xanchor="right", x=0.99)
+    # Legenda no canto superior direito
+    legend=dict(
+        yanchor="top", 
+        y=0.99, 
+        xanchor="right", 
+        x=0.99,
+        bgcolor="rgba(255, 255, 255, 0.5)" # Fundo leve para não cobrir as linhas
+    ),
+    # Ajustes para visualização mobile e bordas
+    margin=dict(l=20, r=20, t=50, b=20), 
+    height=600 
 )
 
 st.plotly_chart(fig, use_container_width=True)
